@@ -1,0 +1,31 @@
+{
+  "entry": {
+    "css": [
+      "style.css"
+    ],
+
+    "js": [
+      "app.js"
+    ]
+  },
+
+  "discover": ["img", "fonts", "css", "js"],
+
+  "precss": {
+    "import": false,
+    "variables": false,
+    "properties": false,
+    "nesting": false,
+    "extend": false
+  },
+
+  "cssnext": {
+    "browsers": "Explorer >= 11, Edge >= 12, Safari >= 8, last 4 Chrome versions, last 4 Firefox versions, last 4 Opera versions, iOS >= 8, Android >= 4.4, ExplorerMobile >= 11, BlackBerry >= 10",
+    "import": false,
+    "features": {
+      "customProperties": false,
+      "pseudoElements": false,
+      "rem": false
+    }
+  }
+}

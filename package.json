@@ -1,0 +1,53 @@
+{
+  "private": false,
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "browser-sync": "^2.10.1",
+    "css-mqpacker": "^4.0.0",
+    "eslint": "^1.10.3",
+    "fs-extra": "^0.26.3",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "hbs-helpers": "^1.0.3",
+    "husky": "^0.10.2",
+    "merge": "^1.2.0",
+    "node-libs-browser": "^0.5.3",
+    "postcss-assets": "^3.0.3",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-cssnext": "^2.3.0",
+    "postcss-import": "^7.1.3",
+    "precss": "^1.3.0",
+    "require-dir": "^0.3.0",
+    "webpack": "^1.12.9",
+    "webpack-stream": "^3.1.0"
+  },
+  "scripts": {
+    "build": "gulp build -- --harmony",
+    "dev": "gulp start",
+    "lint": "eslint .",
+    "prepush": "npm run lint",
+    "start": "npm run dev",
+    "test": "npm run lint"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs",
+      "transform-es2015-literals",
+      "transform-es2015-destructuring",
+      "transform-es2015-shorthand-properties"
+    ]
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}

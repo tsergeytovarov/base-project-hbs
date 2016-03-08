@@ -1,0 +1,7 @@
+@import "normalize.css";
+@import "variables.css";
+@import "mixins.css";
+
+
+/* Подвал */
+@import "../components/header/header.css";
