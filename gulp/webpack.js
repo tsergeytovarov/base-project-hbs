@@ -4,7 +4,7 @@ import webpack from 'webpack-stream';
 import {get as bs} from 'browser-sync';
 
 gulp.task('webpack', () => {
-  let options = require(path.resolve('config/webpack.config'));
+  let options = require(path.resolve('config/webpack.config.js'));
 
   return gulp.src('app/js/app.js', {allowEmpty: true})
     .pipe(webpack(options))
