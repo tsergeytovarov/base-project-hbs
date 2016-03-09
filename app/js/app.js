@@ -1,5 +1,3 @@
-'use strict';
+import './modules/base';
 
-(function() {
-  console.log('Start!');
-});
+import './modules/modal';
