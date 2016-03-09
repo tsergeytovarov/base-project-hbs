@@ -1,8 +1,5 @@
 {
   "private": false,
-  "dependencies": {
-    "normalize.css": "^3.0.3"
-  },
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-loader": "^6.2.0",
