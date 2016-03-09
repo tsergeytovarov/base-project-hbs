@@ -1,0 +1,33 @@
+/* Переменные */
+
+:root {
+  --main-color: red;
+  --small-color: blue;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+/* Кастомные меди выражения */
+@custom-media --small-viewport (max-width: 30em);
+
+@media (--small-viewport) {
+  body{
+    background-color: var(--small-color);
+  }
+}
+
+/* вложенные селекторы */
+body {
+
+  & h1 {
+    font-size: 40px;
+  }
+}
+
+.block {
+  &__element {
+    font-size: 50px;
+  }
+}
