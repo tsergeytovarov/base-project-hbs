@@ -3,5 +3,5 @@
 @import "mixins.css";
 
 
-/* Подвал */
+/* Шапка */
 @import "../components/header/header.css";
