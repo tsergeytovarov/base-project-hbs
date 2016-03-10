@@ -1,0 +1,33 @@
+:root {
+  --base-font: "Arial", sans-serif;
+}
+
+body {
+  font-family: var(--base-font);
+  font-size: var(--base-fz);
+  line-height: var(--base-lh);
+  color: var(--base-color);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+li {
+
+}
+
+a {
+
+  &:hover {
+    text-decoration: none;
+  }
+}
