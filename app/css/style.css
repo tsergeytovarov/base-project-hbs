@@ -1,7 +1,11 @@
+/* Нормализация стилей */
 @import "normalize.css";
+
+/* Глобальные блоки стилей */
 @import "variables.css";
-@import "mixins.css";
-@import "features.css";
+@import "colors.css";
+@import "typograf.css";
+@import "grid.css"
 
 /* Шапка */
 @import "../components/header/header.css";
