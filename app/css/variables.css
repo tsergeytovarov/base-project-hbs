@@ -2,3 +2,8 @@
   --base-fz: 14px;
   --base-lh: 18px;
 }
+
+@custom-media --lg (min-width: 1200px);
+@custom-media --md (min-width: 960px);
+@custom-media --sm (min-width: 768px);
+@custom-media --xs (min-width: 460px);
